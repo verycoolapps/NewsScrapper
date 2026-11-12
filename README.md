@@ -23,6 +23,7 @@
 
 ## 📖 Table of Contents
 
+- [🗂️ Repository Structure](#-repository-structure)
 - [🔭 Vision & Mission](#-vision--mission)
 - [🏗️ Architecture Overview](#-architecture-overview)
 - [🧠 Intelligence Capabilities](#-intelligence-capabilities)
@@ -50,6 +51,40 @@
 - [🚫 Anti-AI-Slop Design Standard](#-anti-ai-slop-design-standard)
 - [✅ Definition of Done](#-definition-of-done)
 - [📜 License](#-license)
+
+---
+
+## 🗂️ Repository Structure
+
+```
+NewsScrapper/
+├── SKILL.md                              # Master skill specification
+├── README.md                             # This file (EN + ID)
+├── LICENSE                               # MIT license
+└── references/                           # Engineering reference docs
+    ├── admin.md
+    ├── api.md
+    ├── architecture.md
+    ├── crawling.md
+    ├── database.md
+    ├── intelligence.md
+    ├── runbook.md
+    └── security-compliance.md
+```
+
+| File | Description |
+|------|-------------|
+| [`SKILL.md`](SKILL.md) | Master skill specification: identity, processing pipeline, AI engine, database schema, security, and definition of done |
+| [`README.md`](README.md) | Bilingual project overview and documentation index (English + Bahasa Indonesia) |
+| [`LICENSE`](LICENSE) | MIT license text |
+| [`references/architecture.md`](references/architecture.md) | Full system architecture: component diagram, service boundaries, scaling model, graceful-degradation rules |
+| [`references/api.md`](references/api.md) | REST API conventions: endpoints, authentication, pagination, rate limits, versioning |
+| [`references/crawling.md`](references/crawling.md) | Worldwide crawling engine: 10-step worker pipeline, priorities, conditional requests, resilience, permission model |
+| [`references/database.md`](references/database.md) | Relational model: ~35 core tables by domain, indexes, partitioning, retention, full-text & vector strategy |
+| [`references/intelligence.md`](references/intelligence.md) | AI engine: ten capabilities, six-level duplicate detection, verification labels, multilingual rules |
+| [`references/admin.md`](references/admin.md) | Admin Control Center: 17 modules, source management, crawler monitoring, publisher policies |
+| [`references/runbook.md`](references/runbook.md) | Operational runbook: deployment topology, monitoring, incident response, recovery procedures |
+| [`references/security-compliance.md`](references/security-compliance.md) | Security foundation: RBAC/MFA, legal & content requirements, takedown handling |
 
 ---
 
@@ -578,6 +613,7 @@ Made with precision for the world's information.
 
 ## 📖 Daftar Isi
 
+- [🗂️ Struktur Repositori](#-struktur-repositori)
 - [🔭 Visi & Misi](#-visi--misi)
 - [🏗️ Gambaran Arsitektur](#-gambaran-arsitektur)
 - [🧠 Kemampuan Intelijen](#-kemampuan-intelijen)
@@ -606,6 +642,40 @@ Made with precision for the world's information.
 - [✅ Definisi Selesai](#-definisi-selesai)
 - [📜 Lisensi](#-lisensi)
 
+---
+
+
+## 🗂️ Struktur Repositori
+
+```
+NewsScrapper/
+├── SKILL.md                              # Spesifikasi skill utama
+├── README.md                             # Berkas ini (EN + ID)
+├── LICENSE                               # Lisensi MIT
+└── references/                           # Dokumen referensi teknis
+    ├── admin.md
+    ├── api.md
+    ├── architecture.md
+    ├── crawling.md
+    ├── database.md
+    ├── intelligence.md
+    ├── runbook.md
+    └── security-compliance.md
+```
+
+| Berkas | Deskripsi |
+|--------|-----------|
+| [`SKILL.md`](SKILL.md) | Spesifikasi skill utama: identitas, pipeline pemrosesan, mesin AI, skema basis data, keamanan, dan definisi selesai |
+| [`README.md`](README.md) | Ikhtisar proyek dwibahasa dan indeks dokumentasi (Inggris + Bahasa Indonesia) |
+| [`LICENSE`](LICENSE) | Teks lisensi MIT |
+| [`references/architecture.md`](references/architecture.md) | Arsitektur sistem lengkap: diagram komponen, batas layanan, model skala, aturan degradasi anggun |
+| [`references/api.md`](references/api.md) | Konvensi REST API: endpoint, autentikasi, paginasi, batas laju, versioning |
+| [`references/crawling.md`](references/crawling.md) | Mesin perayapan sedunia: pipeline pekerja 10 langkah, prioritas, permintaan kondisional, ketahanan, model izin |
+| [`references/database.md`](references/database.md) | Model relasional: ~35 tabel inti per domain, indeks, partisi, retensi, strategi full-text & vektor |
+| [`references/intelligence.md`](references/intelligence.md) | Mesin AI: sepuluh kemampuan, deteksi duplikat enam tingkat, label verifikasi, aturan multibahasa |
+| [`references/admin.md`](references/admin.md) | Pusat Kendali Admin: 17 modul, manajemen sumber, pemantauan perayap, kebijakan penerbit |
+| [`references/runbook.md`](references/runbook.md) | Runbook operasional: topologi deployment, pemantauan, respons insiden, prosedur pemulihan |
+| [`references/security-compliance.md`](references/security-compliance.md) | Fondasi keamanan: RBAC/MFA, persyaratan hukum & konten, penanganan penarikan |
 ---
 
 ## 🔭 Visi & Misi
