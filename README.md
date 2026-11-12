@@ -538,7 +538,7 @@ Publisher unavailable · malformed XML · changed HTML structure · article in m
 
 ## 📜 License
 
-MIT — see [LICENSE](LICENSE) *(if present)* or the repository license terms.
+MIT — see [LICENSE](LICENSE) for the full license text.
 
 ---
 
@@ -1094,7 +1094,7 @@ Penerbit tidak tersedia · XML rusak · struktur HTML berubah · artikel di bany
 
 ## 📜 Lisensi
 
-MIT — lihat [LICENSE](LICENSE) *(bila ada)* atau ketentuan lisensi repositori.
+MIT — lihat [LICENSE](LICENSE) untuk teks lisensi lengkap.
 
 ---
 
